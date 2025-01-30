@@ -7,7 +7,10 @@
     "build": "react-scripts build"
   },
   "dependencies": {
+    "better-sqlite3": "^11.8.1",
     "bulma": "^0.9.4",
+    "graphql": "^16.10.0",
+    "graphql-request": "^7.1.2",
     "jwt-decode": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

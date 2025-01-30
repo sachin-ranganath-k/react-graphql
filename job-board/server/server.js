@@ -7,7 +7,7 @@ import { authMiddleware, handleLogin } from "./auth.js";
 import { resolvers } from "./resolvers.js";
 
 const PORT = 9001;
-
+const app = express();
 app.use(cors(), express.json(), authMiddleware);
 
 app.post("/login", handleLogin);
